@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 1</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+    <section class="form_popup">
+        <div class="block_form">
+            <div class="container_form">
+                <div class="logo_form"><img src="img/Logo-icon.svg" alt="logo"></div>
+                <div class="close_form"><img src="img/Close_icon.svg" alt="Close"></div>
+                
+                <!--/ Register /-->
+                <div class="sign_form_content">
+                    <div class="title_sign">
+                        <h3 class="text_xmd">Join our community</h3>
+                        <p class="text_lg">Start your journey with our product</p>
+                    </div>
+                    <form action="POST" class="sign_form form">
+                        
+                        <div class="item_input">
+                            <label for="name_sign" class="text_md">Name*</label>
+                            <input type="text" placeholder="Patryk" id="name_sign">
+                        </div>
+
+                        <div class="item_input">
+                            <label for="email_sign" class="text_md">Email*</label>
+                            <input type="email" placeholder="exemple@gmail.com" id="email_sign">
+                        </div>
+
+                        <div class="item_input">
+                            <label for="password_sign" class="text_md">Password*</label>
+                            <input type="password" placeholder="*******" id="password_sign">
+                        </div>
+
+                        <div class="item_remember">
+                            <input type="checkbox" id="checkbox_sign">
+                            <label for="checkbox_sign" class="text_small">Remember me</label>
+
+                        </div>
+
+                        <div class="button_form">
+                            <button class="main_button">Sign Up</button>
+                            <button class="stroke_button"><img src="img/Google-icon-button.svg" alt="icon"> Sign up with Google</button>
+                        </div>
+
+                    </form>
+                    <div class="already_account">
+                        <p class="text_small">Already have an account?</p>
+                        <a class="text_small sign_in_open">Sign in</a>
+                    </div>
+                    
+                </div>
+
+                <!--/ LOGIN /-->
+                <div class="login_form_content">
+                    <div class="title_sign">
+                        <h3 class="text_xmd">Sign in account</h3>
+                        <p class="text_lg">Start your demo version</p>
+                    </div>
+                    <form action="POST" class="sign_form form">
+                        
+                        <div class="item_input">
+                            <label for="email_sign" class="text_md">Email*</label>
+                            <input type="email" placeholder="exemple@gmail.com" id="email_sign">
+                        </div>
+
+                        <div class="item_input">
+                            <label for="password_sign" class="text_md">Password*</label>
+                            <input type="password" placeholder="*******" id="password_sign">
+                        </div>
+
+                        <div class="under_inputs">
+                            <div>
+                                <input type="checkbox" id="checkbox_sign">
+                                <label for="checkbox_sign" class="text_small">Remember me</label>
+                            </div>
+                            <a href="" class="text_small">Forgot your password?</a>
+                        </div>
+
+                        <div class="button_form">
+                            <button class="main_button">Login</button>
+                            <button class="stroke_button"><img src="img/Google-icon-button.svg" alt="icon"> Sign in with Google</button>
+                        </div>
+
+                    </form>
+                    <div class="already_account">
+                        <p class="text_small">Don’t have an account?</p>
+                        <a class="text_small sign_up_open">Sign up</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="overlay_form"></div>
+    </section>
+
+    <!-- Header Adaption menu -->
+    <header class="Header">
+        <section class="mobile_menu">
+            <div class="container_mobile">
+                <div class="row_mobile">
+                    <div class="header_mobile">
+                        <img src="img/icon_logo_nav.svg" alt="logo">
+                        <img class="close_menu_icon" src="img/Close.svg" alt="Close">
+                    </div>
+                    <div class="links_menu">
+                        <ul>
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="https://uahelp.monobank.ua"><img src="img/ukraine-flag-waving-icon-64.png" alt="Flag"> Help Ukraine</a></li>
+                        </ul>
+                    </div>
+                    <div class="buttons_mobile">
+                        <ul>
+                            <li class="col-md-12"><button class="second_button">Log In</button></li>
+                            <li class="col-md-12"><button class="main_button">Sign Up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay_mobile"></div>
+        </section>
+
+    <!-- Header  -->
+        <div class="container_nav">
+            <div class="row">
+                <div class="logo_nav col-lg-3 col-md col-sm-12">
+                    <div class="humburger"><img src="img/Menu.svg" alt="Menu"></div>
+                    <img class="logo" src="img/icon_logo_nav.svg" alt="logo-icon">
+                </div>
+                <div class="links_nav col-lg-6 col-md-12">
+                    <ul>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="https://uahelp.monobank.ua"><img src="img/ukraine-flag-waving-icon-64.png" alt="Flag"> Help Ukraine</a></li>
+                    </ul>
+                </div>
+                <div class="buttons_nav col-lg-3 col-md col-sm-12">
+                    <ul>
+                        <li><button class="second_button login_button">Log In</button></li>
+                        <li><button class="main_button signup_button">Sign Up</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <section class="Cookies">
+        <div class="cookies_container container">
+            <div class="cookies_information">
+                <p class="text_md">We use third-party cookies in order to personalise your experience.</p>
+                <a href="">Read our cookie policy <img src="img/down arrow.svg" alt="icon"></a>
+            </div>
+            <div class="cookies_buttons">
+                <button class="allow">Decline</button>
+                <button class="main_button allow">Allow</button>
+            </div>
+        </div>
+    </section> -->
+    
+    <!-- Content -->
+    <main>
+        <section class="Hero">
+            <div class="hero_container">
+                <div class="container">
+                    <div class="row hero_row">
+                        <div class="hero_left col-lg-5 col-md-6 col-sm-12">
+                            <div class="hero_category"><p class="text_xs">CATEGORY</p></div>
+                            <h1 class="text_xxlg">Lorem ipsum dolor sit amet.</h1>
+                            <p class="text_medium">We’re different. Flex is the only saas business platform that lets you run your business.</p>
+                            <div class="hero_button">
+                                <ul>
+                                    <li><button class="main_button text_lg">Request a Demo</button></li>
+                                    <li><button class="second_button text_lg signup_button">Sign Up</button></li>
+                                </ul>
+                            </div>
+                            <div class="brans">
+                                <p class="text_small">Trusted by brands all around the world</p>
+                                <div class="column_logo">
+                                    <img src="img/logo01.svg" alt="logo01">
+                                    <img src="img/logo02.svg" alt="logo02">
+                                    <img src="img/logo03.svg" alt="logo03">
+                                    <img src="img/logo04.svg" alt="logo04">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero_right col-md-6">
+                            <img src="img/computer.png" alt="computer">
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="wave_bg"><img src="img/BG Wave.svg" alt="Wave"></div>
+        </section>
+
+        <section class="Numbers">
+            <div class="container">
+                <div class="title_numbers">
+                    <div class="category"><p class="text_xs">NUMBERS</p></div>
+                    <h1 class="text_xlg">We believe in the power of data</h1>
+                    <p class="text_medium">Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                </div>
+                    <div class="container_numbers">
+                    <div class="row">
+                        <div class="item_number col-lg-3 col-md-6 col-sm-6">
+                            <h2 class="text_xlg">235.000</h2>
+                            <p>Projects completed</p>
+                        </div>
+                        <div class="item_number col-lg-3 col-md-6 col-sm-6">
+                            <h2 class="text_xlg">$10m</h2>
+                            <p>APR</p>
+                        </div>
+                        <div class="item_number col-lg-3 col-md-6 col-sm-6">
+                            <h2 class="text_xlg">+50.000</h2>
+                            <p>Hours Saved Annually</p>
+                        </div>
+                        <div class="item_number col-lg-3 col-md-6 col-sm-6">
+                            <h2 class="text_xlg">3.500</h2>
+                            <p>Unique Users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Features">
+            <div class="wave_bg_fea"><img src="img/BG Wave_2.svg" alt="Wave"></div>
+            <div class="features_container">
+                <div class="container">
+                    <div class="title_numbers title_features">
+                        <div class="category"><p class="text_xs">FEATURES</p></div>
+                        <h1 class="text_xlg">Gain more insight into how people use your</h1>
+                        <p class="text_medium">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+                    </div>
+                    <div class="video_features">
+                        <iframe loading="lazy" src="https://www.youtube.com/embed/DbmuNFxwjt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="column_features">
+                        <div class="row">
+                            <div class="item_features col-lg-4 col-md-6">
+                                <div class="icon_item"><img src="img/Outline.svg" alt="Outline"></div>
+                                <h3 class="text_md_lg">Measure your performance</h3>
+                                <p class="text_md">Stay connected with your team and make quick decisions wherever you are. </p>
+
+                            </div>
+                            <div class="item_features col-lg-4 col-md-6">
+                                <div class="icon_item"><img src="img/Chart.svg" alt="Chart"></div>
+                                <h3 class="text_md_lg">Custom analytics</h3>
+                                <p class="text_md">Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.</p>
+                            </div>
+                            <div class="item_features col-lg-4 col-md-12">
+                                <div class="icon_item"><img src="img/User.svg" alt="user"></div>
+                                <h3 class="text_md_lg">Team Management</h3>
+                                <p class="text_md">Our calendar lets you know what is happening with customer and projects so you</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave_bottom_fea"><img src="img/BG Wave.svg" alt="Wave"></div>
+        </section>
+
+        <section class="Team">
+            <div class="container">
+                <div class="row team_row">
+                    <div class="title_team col-lg-6 col-md-6 col-sm-12">
+                        <div class="category"><p class="text_xs">TEAM</p></div>
+                        <h1 class="text_xlg">Meet our team</h1>
+                        <p class="text_medium">Highly professional and capable of running your business across all digital channels.</p>
+                    </div>
+                    <div class="button_team col-lg-6 col-md-6 col-sm-12">
+                        <ul>
+                            <li><button class="main_button">We are hiring</button></li>
+                            <li><button class="stroke_button">Our Culture</button></li>
+                        </ul>
+                    </div>
+                    <div class="container gallery_container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                    <div class="item-lg">
+                                        <div class="overlay_team_grid">
+                                            <div class="title-ov">
+                                                <h3 class="text_xmd name">Arthur Kabro</h3>
+                                                <p class="text_lg">CEO & Founder</p>
+                                            </div>
+                                        </div>
+                                        <img loading="lazy" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80" alt="photo">
+                                    </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="item-sm first_media_grid">
+                                    <div class="overlay_team_grid">
+                                        <div class="title-ov">
+                                            <h3 class="text_xmd name">Ivan Mathews</h3>
+                                            <p class="text_lg">CTO</p>
+                                        </div>
+                                    </div>
+                                    <img loading="lazy" src="https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" alt="photo"></div>
+                                <div class="item-sm">
+                                    <div class="overlay_team_grid">
+                                        <div class="title-ov">
+                                            <h3 class="text_xmd name">Elen Benitez</h3>
+                                            <p class="text_lg">Designer</p>
+                                        </div>
+                                    </div>
+                                    <img loading="lazy" src="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2346&q=80" alt="photo"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="item-sm">
+                                    <div class="overlay_team_grid">
+                                        <div class="title-ov">
+                                            <h3 class="text_xmd name">Yana Masik</h3>
+                                            <p class="text_lg">iOS Developer</p>
+                                        </div>
+                                    </div>
+                                    <img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="photo"></div>
+                                <div class="item-sm">
+                                    <div class="overlay_team_grid">
+                                        <div class="title-ov">
+                                            <h3 class="text_xmd name">Mike Vazovski</h3>
+                                            <p class="text_lg">Customer Success</p>
+                                        </div>
+                                    </div>
+                                    <img loading="lazy" src="https://images.unsplash.com/photo-1610088441520-4352457e7095?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" alt="photo"></div>
+                            </div>
+
+                            <div class="col-md-8">
+                                    <div class="item-lg">
+                                        <div class="overlay_team_grid">
+                                            <div class="title-ov">
+                                                <h3 class="text_xmd name">Maria Larova</h3>
+                                                <p class="text_lg">Backend Developer</p>
+                                            </div>
+                                        </div>
+                                        <img loading="lazy" src="https://images.unsplash.com/photo-1560087637-bf797bc7796a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" alt="photo">
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+
+        <section class="Application">
+                <div class="container">
+                    <div class="title_app">
+                        <div class="category"><p class="text_xs">APPLICATION</p></div>
+                        <h1 class="text_xlg">Get our Free Mobile App</h1>
+                        <p class="text_medium">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+                    </div>
+                    <div class="app-buttons">
+                        <a href=""><img loading="lazy" src="img/AppStore.svg" alt="AppStore"></a>
+                        <a href=""><img loading="lazy" src="img/GooglePlay.svg" alt="GooglePlay"></a>
+                    </div>
+                    <div class="container_app_mockup"><img loading="lazy" src="img/app.png" alt="mockup"></div>
+                </div>
+        </section>
+
+        <section class="Faq">
+            <div class="wave_bg_faq"><img src="img/BG Wave_black.svg" alt="Wave"></div>
+            <div class="faq_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="title_faq col-md-6">
+                            <div class="category"><p class="text_xs">FAQ</p></div>
+                            <h1 class="text_xlg">Frequently Asked Questions</h1>
+                            <p class="text_medium">Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                        </div>
+                        <div class="faq_cotainer_question col-md-6">
+                            <div class="row">
+
+                                <div class="item_question">
+                                    <div class="title_question inactive">
+                                        <h3 class="text_md_lg">How long does it take to ship my order?</h3>
+                                        <img class="active_icon" src="img/down arrow.svg" alt="arrow down">
+                                    </div>
+                                    <div class="answer_faq">
+                                        <p class="text_md">Orders are usually shipped within 1-2 business days after placing the order. Orders are usually shipped within 1-2 business days after placing the order.</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_question">
+                                    <div class="title_question inactive">
+                                        <h3 class="text_md_lg">What payment methods do you accept?</h3>
+                                        <img class="active_icon" src="img/down arrow.svg" alt="arrow down">
+                                    </div>
+                                    <div class="answer_faq">
+                                        <p class="text_md">Orders are usually shipped within 1-2 business days after placing the order.</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_question">
+                                    <div class="title_question inactive">
+                                        <h3 class="text_md_lg">What shipping options do you have?</h3>
+                                        <img class="active_icon" src="img/down arrow.svg" alt="arrow down">
+                                    </div>
+                                    <div class="answer_faq">
+                                        <p class="text_md">Orders are usually shipped within 1-2 business days after placing the order.</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_question">
+                                    <div class="title_question inactive">
+                                        <h3 class="text_md_lg">How do I make changes to an existing order?</h3>
+                                        <img class="active_icon" src="img/down arrow.svg" alt="arrow down">
+                                    </div>
+                                    <div class="answer_faq">
+                                        <p class="text_md">Orders are usually shipped within 1-2 business days after placing the order.</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_question">
+                                    <div class="title_question inactive">
+                                        <h3 class="text_md_lg">When will my order arrive?</h3>
+                                        <img class="active_icon" src="img/down arrow.svg" alt="arrow down">
+                                    </div>
+                                    <div class="answer_faq">
+                                        <p class="text_md">Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave_bg_faq"><img src="img/BG Wave_black_2.svg" alt="Wave"></div>
+
+        </section>
+
+        <footer>
+            <div class="container footer_container">
+                <div class="logo_footer"><img src="img/icon_logo_nav.svg" alt="logo"></div>
+                <ul>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="https://uahelp.monobank.ua"><img src="img/ukraine-flag-waving-icon-64.png" alt="Flag"> Help Ukraine</a></li>
+                </ul>
+                <hr>
+                <p class="text_small">© 2022 Kabro. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+</body>
+</html>
